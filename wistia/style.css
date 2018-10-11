@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css?family=spirax,sans-serif,Walsheim');
+.body{
+    font-family: Arial, Helvetica, sans-serif,'spirax';
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*header*/
+.flex-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    border: 1px solid darkgray; 
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: center ;
+    border: 1px solid darkgray; 
+    justify-content: flex-end;
+
+}
+.flex-container{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+width: 70%;
+height: 100%;
+
+
+}
+.iframe{
+    height: 100%;
+    width: 100
+}
+.flex-container.first-child.nav>a {
+    padding-right: 2%;
+}
+.flex-container.second-child.nav>a {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.flex-container.first-child.nav.linked{
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%; width: 100%;
+
+    background-color:white;
+    padding-left: 5%; 
+    padding-top: 5%;
+    display: block;
+   
+}
+.flex-container .first-child> a{
+    font-size: 25px;
+    font-weight: 900;
+}
+.flex-container .second-child> a{
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 3%;
+    
+}
+/*
+.first-child> ul li a {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%    ;
+    height: 60px;
+    padding-top: 5%;
+
+}*/
+.second-child{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#f9f9f9;
+    display: block;
+    height: 100%; width: 100%;
+    
+    /*padding-bottom: 5%;
+    width: 90%;
+    padding-bottom: 5%;   */
+
+}
+.flex-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 25%;
+    border-left: 1px solid #efefef;
+    /*right: 14%;*/
+    font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+    text-decoration: none;
+    align-self: center;
+    height: 5%;
+  /* padding-top: 4%;
+    padding-left: 5%;*/
+ 
+}
+.signin{
+width: 50%;
+font-size: 20px; 
+
+    
+}
+.signin>h3{
+    align-items: center;
+}
+
+.login{
+    width: 50%;
+    font-size: 20px; 
+    border-left: 2px solid #efefef;
+
+}
+.flex-container>a {
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    font-weight: bold;
+  
+}
+/*main*/
+.flex-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    position: relative;
+    background-color:#CEA0AF;
+}
+.flex-video{
+  
+    position:relative;
+    height: 60%;
+    width: 50%;
+}
+.flex-text{
+ position: relative;
+ border-radius: 5px;
+  
+    width: 30%;
+}
+.flex-text>h1{
+    position: relative;
+    color: #363945;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-family: "Walsheim", sans-serif;
+    align-items: flex-start;
+
+}
+.flex-text>button{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 36px auto 0;
+    padding: 19px 22px;
+    background-color: white;
+    min-width: 178px;
+    display: block;
+    color: #363945;
+    font-size: 26px;
+    border: 1px solid #EFEFEF;
+    position: relative;
+    bottom: -180px;
+    margin-left: 15px;
+    width: 40%;
+    margin-top: -10%;
+
+}
+.flex-homepage{
+display: flex;
+height: 750px ;
+width: 100%;
+flex-direction: row;
+justify-content: flex-start;
+}
+.flex-homepage.yellow-flex{
+    background-color:#FED24A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+
+}
+
+.flex-homepage.yellow-flex >h2{
+    color: #fff;
+    width: 100%;
+    height: 33%;
+    font-size: 40px;
+    line-height: 30px;
+    margin: 15px 0 10px;
+    font-family: "Walsheim", sans-serif;
+    align-content: center;
+    padding-left: 30%;
+    
+
+}
+.flex-homepage.yellow-flex>p{
+    line-height: 30px;
+    font-size: 30px;
+    font-family: "Walsheim", sans-serif;
+    color: #363945;
+    font-weight: bold;
+    padding-left: 30%;
+    width: 100%;
+    height: 33%;
+
+    
+}
+.flex-homepage.yellow-flex>button{
+    font-family: "Walsheim", sans-serif;
+    border: 2px solid #EFEFEF;
+    margin: 0;
+    display: block;
+    font-size: 17px;
+    box-sizing: border-box;
+    font-weight: 600;
+    position: relative;
+    bottom: 0px;
+    min-width: 178px;
+    width: 178px;
+    height: 57px;
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+
+.flex-homepage.green-flex{
+
+    background-color:#51C29F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    .flex-homepage.green-flex >h2{
+        color: #fff;
+        width: 100%;
+        height: 33%;
+        font-size: 40px;
+        line-height: 30px;
+        margin: 15px 0 10px;
+        font-family: "Walsheim", sans-serif;
+        align-content: center;
+        padding-left: 30%;
+        
+    
+    }
+    .flex-homepage.green-flex>p{
+        line-height: 30px;
+        font-size: 30px;
+        font-family: "Walsheim", sans-serif;
+        color: #363945;
+        font-weight: bold;
+        padding-left: 30%;
+        width: 100%;
+        height: 33%;
+    
+        
+    }
+    .flex-homepage.green-flex>button{
+        font-family: "Walsheim", sans-serif;
+        border: 2px solid #EFEFEF;
+        margin: 0;
+        display: block;
+        font-size: 17px;
+        box-sizing: border-box;
+        font-weight: 600;
+        position: relative;
+        bottom: 0px;
+        min-width: 178px;
+        width: 178px;
+        height: 57px;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+
+    .flex-homepage.blue-flex{
+
+        background-color: #3EA9F5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        .flex-homepage.blue-flex >h2{
+            color: #fff;
+            width: 100%;
+            height: 33%;
+            font-size: 40px;
+            line-height: 30px;
+            margin: 15px 0 10px;
+            font-family: "Walsheim", sans-serif;
+            align-content: center;
+            padding-left: 30%;
+            
+        
+        }
+        .flex-homepage.blue-flex>p{
+            line-height: 30px;
+            font-size: 30px;
+            font-family: "Walsheim", sans-serif;
+            color: #363945;
+            font-weight: bold;
+            padding-left: 30%;
+            width: 100%;
+            height: 33%;
+        
+            
+        }
+        .flex-homepage.blue-flex>button{
+            font-family: "Walsheim", sans-serif;                                                                
+            border: 2px solid #EFEFEF;
+            margin: 0;
+            display: block;
+            font-size: 17px;
+            box-sizing: border-box;
+            font-weight: 600;
+            position: relative;
+            border-radius: 5px;
+            bottom: 0px;
+            min-width: 178px;
+            width: 178px;
+            height: 57px;
+            background-color: transparent;
+        
+        }
+
+        
+.Image-group{
+    margin-top: 3%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    
+}
+.Image-group>p{
+    padding: 0 30px;
+    font-size: 45px;
+    color: #9CA8B7;
+    font-family: "Walsheim", sans-serif; 
+}
+.features-bloc-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 900px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+
+}
+.features-bloc-flex.video-player{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 900x;
+    width: 33%;
+
+}
+.features-bloc-flex.features-bloc-flex.video-player>img{
+    height: 60%;
+    width: 60%;
+}
+.features-bloc-flex.video-player>h1{
+line-height: 26px;
+margin: 45px 0;
+color: #363945;
+display: block;
+font-family: "Walsheim", sans-serif;
+font-weight: bold;
+}
+.features-bloc-flex.video-player>p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    color:#363945;
+    font-family: "Walsheim", sans-serif;
+}
+
+.features-bloc-flex.video-player>a{
+    color: #217AD5;
+    font-size: 25px;
+}
+.features-bloc-flex.vulcan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 900x;
+    width: 33%;
+}
+.features-bloc-flex.features-bloc-flex.vulcan>img{
+    height: 60%;
+    width: 60%;
+}
+.features-bloc-flex.vulcan>h1{
+line-height: 26px;
+margin: 45px 0;
+color: #363945;
+display: block;
+font-family: "Walsheim", sans-serif;
+font-weight: bold;
+}
+.features-bloc-flex.vulcan>p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    color:#363945;
+    font-family: "Walsheim", sans-serif;
+}
+.features-bloc-flex.vulcan>a{
+    color: #217AD5;
+    font-size: 25px;
+}
+
+.features-bloc-flex.video-trailer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 900x;
+    width: 33%;
+}
+.features-bloc-flex.video-trailer>h1{
+line-height: 26px;
+margin: 45px 0;
+color: #363945;
+display: block;
+font-family: "Walsheim", sans-serif;
+font-weight: bold;
+}
+.features-bloc-flex.video-trailer>p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    color:#363945;
+    font-family: "Walsheim", sans-serif;
+}
+.features-bloc-flex.video-trailer>a{
+    color: #217AD5;
+    font-family: "Walsheim", sans-serif;
+    font-size: 25px;
+  
+}
+.features-bloc-flex.features-bloc-flex.video-trailer>img{
+    height: 60%;
+    width: 60%;
+}
+.services{
+    color: #777777;
+    font-size: 25px;
+    padding: 25px 40px;
+    text-align: center;
+    background-color: #e8e7e6;
+    
+}
+
+.footer-flex{
+ background-color: #2A2D35;
+ display:flex;
+ flex-direction: column;
+ justify-content: flex-start
+}
+.footer-flex.footer-flex.footer-header>img{
+    width: 80px;
+    height: 60px;
+}
+.footer-flex.footer-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: right;
+    padding-right: 5em;
+    padding-top: 2em;
+    font-size: 25px;
+}
+.footer-flex.footer-header.right-footer{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding-top: 55px;
+}
+.footer-flex.footer-flex.footer-header.right-footer>p{
+    font-size: 29px;
+    color: #e8e7e6;
+    font-family: "Walsheim", sans-serif;
+}
+.footer-flex.footer-header.left-footer{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: #b2b9c1;
+    font-size: 30px;
+    font-family: "Walsheim", sans-serif;
+    padding-top: 10px;
+
+    
+}
+.footer-flex.footer-header.left-footer p{
+    font-size: 35px;
+    color: white;
+    font-family: "Walsheim", sans-serif;
+}
+.footer-flex>ul{
+        list-style: none;
+    
+}
+.footer-flex.footer-header>h1{
+    color:white;
+    display: block;
+    font-family: "Walsheim", sans-serif;
+    text-align: left;
+    font-weight: 500;
+
+}
+.hr{
+    color: white;
+}
+
+    .footer-flex.footer-footer{
+        color: #b2b9c1;
+        font-family: "Walsheim", sans-serif;
+        text-align: center;
+        font-weight: 500;
+        font-size: 35px;
+    }
+    .footer-flex.footer-header.left-footer>ul li a{
+        text-decoration: none;
+        color: #b2b9c1; 
+        
+    }
+    .footer-flex.footer-flex.footer-header.footer-flex.footer-header.left-footer>ul li a:hover{
+        text-decoration: underline;
+    }
+    .footer-flex.footer-header.right-footer> p a{
+            text-decoration: none;
+    }
+    .footer-flex.footer-footer> p a{
+        text-decoration: none;
+    }
+    
+    /**/
+    .topnav {
+        background-color:white;
+        overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a  {
+        float: left;
+        color:#6c798b;
+        text-align: center;
+        padding: 2% 16px;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+       }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+    
+        color: black;
+    }
+    .flex-container.buttomnav {
+        background-color: #f9f9f9;
+        padding-top: 5%;
+    }
+    .bottomnav a{
+        float: left;
+        color:#6c798b;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 5%;
+       }
+
+       .bottomnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .bottomnav a.active {
+    
+        color: black;
+    }
